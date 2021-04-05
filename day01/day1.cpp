@@ -23,6 +23,7 @@ int main(int argc, char* argv[]) {
         if (n + i + j == 2020) {
           std::cout << n << " + " << i << " + j "
                     << " = 2020\n " << n * i * j << "\n";
+          return 0;
         }
       }
     }
